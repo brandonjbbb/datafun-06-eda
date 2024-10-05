@@ -1,14 +1,40 @@
+Exploratory Data Analysis (EDA) of the Iris Dataset
 
-# Datafun-06 EDA Project
+Author: Brandon Jean-Baptiste
+Date: September 30, 2024
 
-This project demonstrates exploratory data analysis (EDA) using pandas, Seaborn, matplotlib, and Jupyter notebooks.
+Project Overview
 
-## Steps so far:
-- Created a GitHub repository.
-- Cloned the repository to my local machine.
-- Set up a `.gitignore` file to ignore unnecessary files and folders.
+This project performs exploratory data analysis (EDA) on the famous Iris dataset using Python libraries such as pandas, Seaborn, and matplotlib. The Iris dataset consists of 150 observations of iris flowers, with measurements of four features:
 
-## Dataset Information
-The dataset chosen for this project is the **Iris Dataset**, which is pre-installed in Seaborn. It contains 150 samples of iris flowers, with 5 features: sepal length, sepal width, petal length, petal width, and species.
+Sepal Length
+Sepal Width
+Petal Length
+Petal Width
+The objective of this analysis is to uncover insights into how these features vary across the three species of iris flowers:
 
-You can view the dataset details [here](https://en.wikipedia.org/wiki/Iris_flower_data_set).
+Setosa
+Versicolor
+Virginica
+Table of Contents
+
+Project Overview
+Objectives
+Installation Instructions
+Analysis Process
+Data Overview
+Pairplot Observations
+Correlation Heatmap Observations
+Feature Engineering
+Results
+Conclusion
+Future Work
+Acknowledgements
+Objectives
+
+The key objectives of this exploratory data analysis are:
+
+To visualize and explore the relationships between the features of the dataset.
+To discover patterns and correlations between these features.
+To identify which features are most useful for distinguishing between the three species of iris flowers.
+To engineer a new feature to provide additional insights into species classification.
